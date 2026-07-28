@@ -1,0 +1,24 @@
+{
+  "name": "genpark-contract-clause-risk-analysis-auditor-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Legal contract clause risk and indemnification auditor.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "operations",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "contract_text": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "risk_level": {
+      "type": "str"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
